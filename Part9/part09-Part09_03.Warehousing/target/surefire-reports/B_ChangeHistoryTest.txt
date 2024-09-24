@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: B_ChangeHistoryTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in B_ChangeHistoryTest
+toStringWorksWhenAdding1(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+toStringWorksWhenAdding2(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+hasMethodAdd(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+hasMethodMaxValue(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+toStringForEmptyHistory(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+theValuesAreCalculatedCorrectlyWhenClearing(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+classExists(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+hasMethodAverage(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+hasMethodClear(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+theValuesAreCalculatedCorrectly1(B_ChangeHistoryTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+theValuesAreCalculatedCorrectly2(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+inheritsNothing(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+hasMethodMinValue(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+hasAConstructor(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+methodMaxValueNotModifyList(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+hasToString(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+noExtraObjectVariables(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+
+methodMinValueNotModifyList(B_ChangeHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ChangeHistory`.
+	at B_ChangeHistoryTest.setup(B_ChangeHistoryTest.java:19)
+

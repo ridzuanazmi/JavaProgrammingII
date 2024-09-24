@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: A_ProductWarehouseTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! - in A_ProductWarehouseTest
+ProductWarehouseToStringWorks1(A_ProductWarehouseTest)  Time elapsed: 0.005 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+does the toString() of ProductWarehouse work according to the example? 
+try 
+pw = new ProductWarehouse("chocolate",10); 
+pw.addToWarehouse(5); 
+System.out.print(pw);
+
+ expected:<[chocolate: ]balance = 5.0, space...> but was:<[]balance = 5.0, space...>
+	at A_ProductWarehouseTest.ProductWarehouseToStringWorks1(A_ProductWarehouseTest.java:137)
+
+ProductWarehouseToStringWorks2(A_ProductWarehouseTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+toimiiko Tuotevaraston toString esimerkin ohjeen mukaan? 
+try 
+pw = new ProductWarehouse("mustard",15); pw.addToWarehouse(10);
+System.out.print(pw);
+
+ expected:<[mustard: ]balance = 10.0, spac...> but was:<[]balance = 10.0, spac...>
+	at A_ProductWarehouseTest.ProductWarehouseToStringWorks2(A_ProductWarehouseTest.java:149)
+
+methodSetName(A_ProductWarehouseTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: write a method public void setName(String nimi) for the class ProductWarehouse
+	at A_ProductWarehouseTest.methodSetName(A_ProductWarehouseTest.java:92)
+
+noExtraObjectVariables(A_ProductWarehouseTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: you don't need object variables for the ProductWarehouse class exept for the name of the product, since the ProductWarehouse inherits the balance and capacity of Warehouse. Remove the extra ones
+	at A_ProductWarehouseTest.sanitaryCheck(A_ProductWarehouseTest.java:180)
+	at A_ProductWarehouseTest.noExtraObjectVariables(A_ProductWarehouseTest.java:45)
+
+ProductWarehouseHasOwnToString(A_ProductWarehouseTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: override the toString method of Warehouse in the ProductWarehouse class according to the example in the exercise description
+	at A_ProductWarehouseTest.ProductWarehouseHasOwnToString(A_ProductWarehouseTest.java:124)
+

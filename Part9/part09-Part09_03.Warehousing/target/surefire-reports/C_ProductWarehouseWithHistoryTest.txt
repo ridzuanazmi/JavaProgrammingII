@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: C_ProductWarehouseWithHistoryTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 16, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in C_ProductWarehouseWithHistoryTest
+takeFromWarehouseReturnsTheAmountTaken(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+hasConstructorTakingThreeParameters(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+hasMethodAddToWarehouse(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+classExists(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+printAnalysisWorks1(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+printAnalysisWorks2(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+printAnalysisContainsTheDesiredLines(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+addingAndTakingAffectsTheHistory1(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+addingAndTakingAffectsTheHistory2(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+hasMethodTakeFromWarehouse(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+hasMethodHistory(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+theInitialBalanceIsSetAsTheBalanceOfTheWarehouse(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+hasMethodPrintAnalysis(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+noExtraObjectVariables(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+addingAndTakingWorks(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
+inheritsProductWarehouseClass(C_ProductWarehouseWithHistoryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Could not find class `ProductWarehouseWithHistory`.
+	at C_ProductWarehouseWithHistoryTest.setup(C_ProductWarehouseWithHistoryTest.java:17)
+
