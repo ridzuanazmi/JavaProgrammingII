@@ -17,3 +17,8 @@ Honestly, I am doing this as some recap and certificate
 1. Class inheritance
 2. Interfaces
 3. Object polymorphism
+
+## Part 10
+1. Handling collections as streams
+2. The Comparable Interface
+3. Other useful techniques
