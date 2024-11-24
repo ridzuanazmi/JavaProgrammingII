@@ -1,6 +1,5 @@
 
-
-public class Card {
+public class Card implements Comparable<Card> {
 
     private int value;
     private Suit suit;
@@ -17,7 +16,7 @@ public class Card {
     @Override
     public String toString() {
         String cardValue = "" + value;
-        if(value == 11) {
+        if (value == 11) {
             cardValue = "J";
         } else if (value == 12) {
             cardValue = "Q";
@@ -26,7 +25,7 @@ public class Card {
         } else if (value == 14) {
             cardValue = "A";
         }
-        
+
         return suit + " " + cardValue;
     }
 
@@ -36,6 +35,20 @@ public class Card {
 
     public Suit getSuit() {
         return suit;
+    }
+
+    @Override
+    public int compareTo(Card other) {
+        // First compare by value
+        int valueComparison = Integer.compare(this.value, other.value);
+
+        if (valueComparison != 0) {
+            return valueComparison; // If values are not equal, return the comparison result
+        }
+
+        // If values are the same, compare by suit
+        return this.suit.compareTo(other.suit); // The compareTo method for enum suits the suits
+
     }
 
 }
